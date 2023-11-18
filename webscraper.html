@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Scrollable Text Example</title>
+  <style>
+    body {
+      font-size: 20px;
+      line-height: 1.5;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <article id="scrollable-article" style="height: 500px; overflow-y: scroll;">
+    <h1>Dynamic Scrollable Text Example</h1>
+    <!-- Repeated paragraph with dynamic repetition number -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var article = document.getElementById('scrollable-article');
+        var numberOfRepetitions = 50;
+
+        for (let i = 1; i <= numberOfRepetitions; i++) {
+          var paragraph = document.createElement('p');
+          paragraph.textContent = `${i}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, eros et tempor tincidunt, quam elit cursus libero, at suscipit augue lectus id ex. Sed eget libero nec ex euismod ultricies. Proin efficitur vulputate eros id fermentum. Vestibulum eu hendrerit risus. Fusce ut tellus vel orci congue commodo. Phasellus sit amet fermentum orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer sed dui sit amet eros cursus cursus a non libero. In hac habitasse platea dictumst. Aliquam eu est et metus auctor eleifend vel et libero. Integer et velit ut tellus commodo tincidunt nec vel felis.`;
+          article.appendChild(paragraph);
+        }
+
+        // Attach the event listener for scroll events
+        article.addEventListener('scroll', function () {
+          // Log the visible text content to the console
+          console.clear(); // Clear console for better readability
+          console.log('Visible Text Content:', getVisibleTextContent(article));
+        });
+
+        function getVisibleTextContent(container) {
+          var visibleElements = getVisibleElements(container);
+          var visibleTextContent = "";
+
+          // Iterate over visible elements and concatenate their text content
+          for (var i = 0; i < visibleElements.length; i++) {
+            var element = visibleElements[i];
+            visibleTextContent += element.textContent.trim() + "\n";
+          }
+
+          return visibleTextContent.trim();
+        }
+
+        function getVisibleElements(container) {
+          // Get all elements within the specified container
+          var allElements = container.querySelectorAll('*');
+          var visibleElements = [];
+
+          // Check if each element is visible in the container
+          for (var i = 0; i < allElements.length; i++) {
+            var element = allElements[i];
+            if (isElementInContainer(element, container)) {
+              visibleElements.push(element);
+            }
+          }
+
+          return visibleElements;
+        }
+
+        function isElementInContainer(element, container) {
+          var rectElement = element.getBoundingClientRect();
+          var rectContainer = container.getBoundingClientRect();
+
+          // Check if the element is at least partially in the container
+          return (
+            rectElement.top < rectContainer.bottom &&
+            rectElement.bottom > rectContainer.top
+          );
+        }
+      });
+    </script>
+    <!-- End of repeated paragraph -->
+  </article>
+</body>
+</html>
+

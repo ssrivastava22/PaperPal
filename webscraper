@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visible Text Content Test</title>
+</head>
+<body>
+  <article>
+    <h1>Article Title</h1>
+    <p>This is the first paragraph of the article.</p>
+    <p>This is the second paragraph of the article.</p>
+    <div>
+      <p>Nested paragraph inside a div.</p>
+    </div>
+    <p>This is the third paragraph of the article.</p>
+  </article>
+  
+  <script>
+    // Wait for the page to be fully loaded
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the visible text content in the viewport
+      var visibleTextContent = getVisibleTextContent();
+
+      // Do something with the visible text content (e.g., log it)
+      console.log(visibleTextContent);
+    });
+
+    function getVisibleTextContent() {
+      var visibleElements = getVisibleElements();
+      var visibleTextContent = "";
+
+      // Iterate over visible elements and concatenate their text content
+      for (var i = 0; i < visibleElements.length; i++) {
+        var element = visibleElements[i];
+        visibleTextContent += element.textContent.trim() + "\n";
+      }
+
+      return visibleTextContent.trim();
+    }
+
+    function getVisibleElements() {
+      // Get all elements on the page
+      var allElements = document.querySelectorAll('*');
+      var visibleElements = [];
+
+      // Check if each element is visible in the viewport
+      for (var i = 0; i < allElements.length; i++) {
+        var element = allElements[i];
+        if (isElementInViewport(element)) {
+          visibleElements.push(element);
+        }
+      }
+
+      return visibleElements;
+    }
+
+    function isElementInViewport(element) {
+      var rect = element.getBoundingClientRect();
+
+      // Check if the element is at least partially in the viewport
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+  </script>
+</body>
+</html>
