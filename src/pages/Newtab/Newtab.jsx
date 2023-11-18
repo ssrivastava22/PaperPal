@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from '../../assets/img/logo.svg';
 import './Newtab.css';
 import './Newtab.scss';
+import whiteStar from "../../assets/img/whiteStar"
 
 const Newtab = () => {
   const [formData, setFormData] = useState({
@@ -25,6 +26,7 @@ const Newtab = () => {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
         <h2>Tell me about yourself</h2> {/* Moved outside the form-container */}
         <div className="form-container">
           <form className="login-form" onSubmit={handleSubmit}>
@@ -65,11 +67,30 @@ const Newtab = () => {
           <button type="submit">Submit</button>
           </form>
         </div>
+=======
+        <img src={whiteStar} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/pages/Newtab/Newtab.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React!
+        </a>
+        <h6>hi naman</h6>
+>>>>>>> origin
       </header>
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default Newtab;
 
 
+=======
+export default Newtab;
+>>>>>>> origin
