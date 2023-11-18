@@ -5154,12 +5154,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! whitestar5.png */ "./src/pages/Newtab/whitestar5.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
+<<<<<<< HEAD
+___CSS_LOADER_EXPORT___.push([module.id, ".App {\n  background-color: #002548; /* Your existing blue background color */\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); /* Replace with the actual path of your image */\n  background-blend-mode: overlay; /* This blends your image with the background color */\n  background-size: cover; /* This ensures that your image covers the entire area */\n  background-position: center; /* This centers your image in the background */\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  position: relative;\n}\n\n/* ... [rest of your styles] */\n.App-header {\n  text-align: center;\n  width: 100%;\n  position: absolute;\n  top: 90px; /* Adjust this value to move the box up */\n  left: 50%;\n  transform: translateX(-50%); /* To keep it horizontally centered */\n}\n\n.App-header h2 {\n  margin-bottom: 20px; /* Adjust as needed */\n  color: white; /* Ensures the title is visible against the background */\n  font-size: 32px; /* Increase the font size as needed */\n  /* Optionally, you can add other styling properties like font-weight if needed */\n}\n\n.form-container {\n  background-color: white;\n  padding: 20px;\n  border-radius: 8px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  color: black; /* Ensures text is visible on white background */\n  width: 100%;\n  max-width: 400px;\n  margin: auto; /* Center the box horizontally */\n}\n\n.login-form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.login-form input, .login-form select {\n  padding: 10px;\n  border-radius: 5px;\n  border: 1px solid #ccc;\n}\n\n.login-form button {\n  padding: 10px;\n  border: none;\n  border-radius: 5px;\n  background-color: #004080; /* Adjust button color as needed */\n  color: white;\n  cursor: pointer;\n}\n\n.login-form button:hover {\n  background-color: #0056b3; /* Adjust hover color as needed */\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.css"],"names":[],"mappings":"AAAA;EACE,yBAAA,EAAA,wCAAA;EACA,yDAAA,EAAA,+CAAA;EACA,8BAAA,EAAA,qDAAA;EACA,sBAAA,EAAA,wDAAA;EACA,2BAAA,EAAA,8CAAA;EACA,iBAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,YAAA;EACA,kBAAA;AACF;;AAEA,8BAAA;AAGA;EACE,kBAAA;EACA,WAAA;EACA,kBAAA;EACA,SAAA,EAAA,yCAAA;EACA,SAAA;EACA,2BAAA,EAAA,qCAAA;AADF;;AAIA;EACE,mBAAA,EAAA,qBAAA;EACA,YAAA,EAAA,wDAAA;EACA,eAAA,EAAA,qCAAA;EACA,gFAAA;AADF;;AAKA;EACE,uBAAA;EACA,aAAA;EACA,kBAAA;EACA,wCAAA;EACA,YAAA,EAAA,gDAAA;EACA,WAAA;EACA,gBAAA;EACA,YAAA,EAAA,gCAAA;AAFF;;AAKA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AAFF;;AAKA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;AAFF;;AAKA;EACE,aAAA;EACA,YAAA;EACA,kBAAA;EACA,yBAAA,EAAA,kCAAA;EACA,YAAA;EACA,eAAA;AAFF;;AAKA;EACE,yBAAA,EAAA,iCAAA;AAFF","sourcesContent":[".App {\n  background-color: #002548; /* Your existing blue background color */\n  background-image: url('whitestar5.png'); /* Replace with the actual path of your image */\n  background-blend-mode: overlay; /* This blends your image with the background color */\n  background-size: cover; /* This ensures that your image covers the entire area */\n  background-position: center; /* This centers your image in the background */\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  position: relative;\n}\n\n/* ... [rest of your styles] */\n\n\n.App-header {\n  text-align: center;\n  width: 100%;\n  position: absolute;\n  top: 90px; /* Adjust this value to move the box up */\n  left: 50%;\n  transform: translateX(-50%); /* To keep it horizontally centered */\n}\n\n.App-header h2 {\n  margin-bottom: 20px; /* Adjust as needed */\n  color: white; /* Ensures the title is visible against the background */\n  font-size: 32px; /* Increase the font size as needed */\n  /* Optionally, you can add other styling properties like font-weight if needed */\n}\n\n\n.form-container {\n  background-color: white;\n  padding: 20px;\n  border-radius: 8px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  color: black; /* Ensures text is visible on white background */\n  width: 100%; \n  max-width: 400px; \n  margin: auto; /* Center the box horizontally */\n}\n\n.login-form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.login-form input, .login-form select {\n  padding: 10px;\n  border-radius: 5px;\n  border: 1px solid #ccc;\n}\n\n.login-form button {\n  padding: 10px;\n  border: none;\n  border-radius: 5px;\n  background-color: #004080; /* Adjust button color as needed */\n  color: white;\n  cursor: pointer;\n}\n\n.login-form button:hover {\n  background-color: #0056b3; /* Adjust hover color as needed */\n}\n\n\n"],"sourceRoot":""}]);
+=======
 ___CSS_LOADER_EXPORT___.push([module.id, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;AACF;;AAEA;EACE,cAAA;EACA,oBAAA;AACF;;AAEA;EACE;IACE,4CAAA;EACF;AACF;AAEA;EACE,yBAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,6BAAA;EACA,YAAA;AAAF;;AAGA;EACE,cAAA;AAAF;;AAGA;EACE;IACE,uBAAA;EAAF;EAEA;IACE,yBAAA;EAAF;AACF","sourcesContent":[".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}"],"sourceRoot":""}]);
+>>>>>>> origin
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5186,7 +5195,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
+<<<<<<< HEAD
+___CSS_LOADER_EXPORT___.push([module.id, "h1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: rgb(255, 255, 255);\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.scss"],"names":[],"mappings":"AAEA;;;;;;EAME,yBARQ;AAOV","sourcesContent":["$myColor: rgb(255, 255, 255);\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: $myColor;\n}\n"],"sourceRoot":""}]);
+=======
 ___CSS_LOADER_EXPORT___.push([module.id, "h1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: orange;\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.scss"],"names":[],"mappings":"AAEA;;;;;;EAME,aARQ;AAOV","sourcesContent":["$myColor: orange;\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: $myColor;\n}"],"sourceRoot":""}]);
+>>>>>>> origin
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5311,6 +5324,42 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -40379,16 +40428,111 @@ __webpack_require__.r(__webpack_exports__);
 /* provided dependency */ var __react_refresh_error_overlay__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+var _s2 = __webpack_require__.$Refresh$.signature();
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i["return"] && (_r = _i["return"](), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
 
 
 var Newtab = function Newtab() {
+  _s2();
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({
+      name: '',
+      email: '',
+      education: '',
+      expertise: '',
+      interest: ''
+    }),
+    _useState2 = _slicedToArray(_useState, 2),
+    formData = _useState2[0],
+    setFormData = _useState2[1];
+  var handleInputChange = function handleInputChange(e) {
+    setFormData(_objectSpread(_objectSpread({}, formData), {}, _defineProperty({}, e.target.name, e.target.value)));
+  };
+  var handleSubmit = function handleSubmit(e) {
+    e.preventDefault();
+    console.log(formData);
+    // Add your backend submission logic here
+  };
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "App"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
     className: "App-header"
+<<<<<<< HEAD
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Tell me about yourself"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "form-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    className: "login-form",
+    onSubmit: handleSubmit
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "name",
+    placeholder: "Name",
+    value: formData.name,
+    onChange: handleInputChange
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "email",
+    name: "email",
+    placeholder: "Email",
+    value: formData.email,
+    onChange: handleInputChange
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+    name: "education",
+    value: formData.education,
+    onChange: handleInputChange
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: ""
+  }, "Select Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "highSchool"
+  }, "High School"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "bachelors"
+  }, "Bachelor's"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "masters"
+  }, "Master's"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "phd"
+  }, "PhD")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+    name: "expertise",
+    value: formData.expertise,
+    onChange: handleInputChange
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: ""
+  }, "Select Level of Expertise"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "beginner"
+  }, "Beginner"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "intermediate"
+  }, "Intermediate"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "expert"
+  }, "Expert")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("select", {
+    name: "interest",
+    value: formData.interest,
+    onChange: handleInputChange
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: ""
+  }, "Select Field of Interest"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "artificialIntelligence"
+  }, "Artificial Intelligence"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "dataScience"
+  }, "Data Science"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "biology"
+  }, "Biology"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("option", {
+    value: "chemistry"
+  }, "Chemistry")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "submit"
+  }, "Submit")))));
+=======
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _assets_img_whiteStar__WEBPACK_IMPORTED_MODULE_4__,
     className: "App-logo",
@@ -40399,7 +40543,9 @@ var Newtab = function Newtab() {
     target: "_blank",
     rel: "noopener noreferrer"
   }, "Learn React!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", null, "hi naman")));
+>>>>>>> origin
 };
+_s2(Newtab, "5ZrxgM1IWdjfSLlkGobQrN1vsD0=");
 _c = Newtab;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Newtab);
 var _c;
@@ -49652,10 +49798,17 @@ module.exports = __webpack_require__.p + "103b5fa18196d5665a7e.svg";
 
 /***/ }),
 
+<<<<<<< HEAD
+/***/ "./src/pages/Newtab/whitestar5.png":
+/*!*****************************************!*\
+  !*** ./src/pages/Newtab/whitestar5.png ***!
+  \*****************************************/
+=======
 /***/ "./src/assets/img/whiteStar.png":
 /*!**************************************!*\
   !*** ./src/assets/img/whiteStar.png ***!
   \**************************************/
+>>>>>>> origin
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -51484,7 +51637,11 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
+<<<<<<< HEAD
+/******/ 		__webpack_require__.h = () => ("3b72ea21426795da1548")
+=======
 /******/ 		__webpack_require__.h = () => ("67386d3e337ce9b48e5d")
+>>>>>>> origin
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -51507,7 +51664,7 @@ module.exports = getWDSMetadata;
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "paper-pal:";
+/******/ 		var dataWebpackPrefix = "chrome-extension-boilerplate-react:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -52031,7 +52188,7 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
-/******/ 		// no baseURI
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
@@ -52072,7 +52229,7 @@ module.exports = getWDSMetadata;
 /******/ 			});
 /******/ 		}
 /******/ 		
-/******/ 		self["webpackHotUpdatepaper_pal"] = (chunkId, moreModules, runtime) => {
+/******/ 		self["webpackHotUpdatechrome_extension_boilerplate_react"] = (chunkId, moreModules, runtime) => {
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
 /******/ 					currentUpdate[moduleId] = moreModules[moduleId];

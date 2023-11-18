@@ -5159,7 +5159,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
+<<<<<<< HEAD
+___CSS_LOADER_EXPORT___.push([module.id, ".App {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n  text-align: center;\n  height: 100%;\n  padding: 10px;\n  background-color: #282c34;\n}\n\n.App-logo {\n  height: 30vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n.App-header {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}", "",{"version":3,"sources":["webpack://./src/pages/Popup/Popup.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,QAAA;EACA,WAAA;EACA,SAAA;EACA,UAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;EACA,yBAAA;AACF;;AAEA;EACE,cAAA;EACA,oBAAA;AACF;;AAEA;EACE;IACE,4CAAA;EACF;AACF;AAEA;EACE,YAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,6BAAA;EACA,YAAA;AAAF;;AAGA;EACE,cAAA;AAAF;;AAGA;EACE;IACE,uBAAA;EAAF;EAEA;IACE,yBAAA;EAAF;AACF","sourcesContent":[".App {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n  text-align: center;\n  height: 100%;\n  padding: 10px;\n  background-color: #282c34;\n}\n\n.App-logo {\n  height: 30vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n\n"],"sourceRoot":""}]);
+=======
 ___CSS_LOADER_EXPORT___.push([module.id, ".App {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n  text-align: center;\n  height: 100%;\n  padding: 10px;\n  background-color: #282c34;\n}\n\n.App-logo {\n  height: 30vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n.App-header {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}", "",{"version":3,"sources":["webpack://./src/pages/Popup/Popup.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,QAAA;EACA,WAAA;EACA,SAAA;EACA,UAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;EACA,yBAAA;AACF;;AAEA;EACE,cAAA;EACA,oBAAA;AACF;;AAEA;EACE;IACE,4CAAA;EACF;AACF;AAEA;EACE,YAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,6BAAA;EACA,YAAA;AAAF;;AAGA;EACE,cAAA;AAAF;;AAGA;EACE;IACE,uBAAA;EAAF;EAEA;IACE,yBAAA;EAAF;AACF","sourcesContent":[".App {\n  position: absolute;\n  top: 0px;\n  bottom: 0px;\n  left: 0px;\n  right: 0px;\n  text-align: center;\n  height: 100%;\n  padding: 10px;\n  background-color: #282c34;\n}\n\n.App-logo {\n  height: 30vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}"],"sourceRoot":""}]);
+>>>>>>> origin
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -51437,7 +51441,11 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
+<<<<<<< HEAD
+/******/ 		__webpack_require__.h = () => ("3b72ea21426795da1548")
+=======
 /******/ 		__webpack_require__.h = () => ("67386d3e337ce9b48e5d")
+>>>>>>> origin
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -51460,7 +51468,7 @@ module.exports = getWDSMetadata;
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "paper-pal:";
+/******/ 		var dataWebpackPrefix = "chrome-extension-boilerplate-react:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -52025,7 +52033,7 @@ module.exports = getWDSMetadata;
 /******/ 			});
 /******/ 		}
 /******/ 		
-/******/ 		self["webpackHotUpdatepaper_pal"] = (chunkId, moreModules, runtime) => {
+/******/ 		self["webpackHotUpdatechrome_extension_boilerplate_react"] = (chunkId, moreModules, runtime) => {
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
 /******/ 					currentUpdate[moduleId] = moreModules[moduleId];

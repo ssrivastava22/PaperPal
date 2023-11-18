@@ -16804,7 +16804,11 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
+<<<<<<< HEAD
+/******/ 		__webpack_require__.h = () => ("3b72ea21426795da1548")
+=======
 /******/ 		__webpack_require__.h = () => ("67386d3e337ce9b48e5d")
+>>>>>>> origin
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -16827,7 +16831,7 @@ module.exports = getWDSMetadata;
 /******/ 	/* webpack/runtime/load script */
 /******/ 	(() => {
 /******/ 		var inProgress = {};
-/******/ 		var dataWebpackPrefix = "paper-pal:";
+/******/ 		var dataWebpackPrefix = "chrome-extension-boilerplate-react:";
 /******/ 		// loadScript function to load a script via script tag
 /******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
@@ -17383,7 +17387,7 @@ module.exports = getWDSMetadata;
 /******/ 			});
 /******/ 		}
 /******/ 		
-/******/ 		self["webpackHotUpdatepaper_pal"] = (chunkId, moreModules, runtime) => {
+/******/ 		self["webpackHotUpdatechrome_extension_boilerplate_react"] = (chunkId, moreModules, runtime) => {
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
 /******/ 					currentUpdate[moduleId] = moreModules[moduleId];

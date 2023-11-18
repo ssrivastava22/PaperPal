@@ -1,33 +1,76 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #002548; /* Your existing blue background color */
+  background-image: url('whitestar5.png'); /* Replace with the actual path of your image */
+  background-blend-mode: overlay; /* This blends your image with the background color */
+  background-size: cover; /* This ensures that your image covers the entire area */
+  background-position: center; /* This centers your image in the background */
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+/* ... [rest of your styles] */
+
+
+.App-header {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 90px; /* Adjust this value to move the box up */
+  left: 50%;
+  transform: translateX(-50%); /* To keep it horizontally centered */
 }
 
+<<<<<<< HEAD
+.App-header h2 {
+  margin-bottom: 20px; /* Adjust as needed */
+  color: white; /* Ensures the title is visible against the background */
+  font-size: 32px; /* Increase the font size as needed */
+  /* Optionally, you can add other styling properties like font-weight if needed */
+}
+
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black; /* Ensures text is visible on white background */
+  width: 100%; 
+  max-width: 400px; 
+  margin: auto; /* Center the box horizontally */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form input, .login-form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #004080; /* Adjust button color as needed */
+  color: white;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3; /* Adjust hover color as needed */
+}
+
+
+=======
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +79,4 @@
     transform: rotate(360deg);
   }
 }
+>>>>>>> origin
