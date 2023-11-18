@@ -43,3 +43,81 @@
     transform: rotate(360deg);
   }
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #06447D; /* Your solid background color */
+    background-image: url('icon1.png'), url('icon2.png'), url('icon6.png'), url('icon7.png'), url('star1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 50px top 10px, right 0px bottom 0px, left bottom, left bottom, right top; /* Position your icons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white; /* Background color of the login container */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    /* More styles... */
+}
+
+/* ... Rest of your CSS ... */
+
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-btn, .skip-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-basis: 48%; /* Makes each button take up almost half the width */
+}
+
+.submit-btn {
+    background-color: #007bff; /* Replace with actual submit button color */
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker shade of submit button color */
+}
+
+.skip-btn {
+    background-color: #cccccc; /* Replace with actual skip button color */
+    color: black;
+}
+
+.skip-btn:hover {
+    background-color: #aaaaaa; /* Darker shade of skip button color */
+}
+
