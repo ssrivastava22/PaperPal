@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react",
+  "name": "paper-pal",
   "version": "5.0.4",
-  "description": "A chrome extension boilerplate built with React 18, Webpack 5, and Webpack Dev Server 4",
+  "description": "ai atl paper pal",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
+    "url": "https://github.com/ssrivastava22/PaperPal.git"
   },
   "scripts": {
     "build": "node utils/build.js",
@@ -13,14 +13,20 @@
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
+    "@azure/ai-text-analytics": "^5.1.0",
+    "@azure/openai": "^1.0.0-beta.7",
+    "dotenv": "^16.3.1",
+    "next-absolute-url": "^1.2.2",
+    "node-fetch": "^2.7.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "setx": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/preset-env": "^7.20.2",
-    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-react": "^7.23.3",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
     "@types/chrome": "^0.0.202",
     "@types/react": "^18.0.26",
