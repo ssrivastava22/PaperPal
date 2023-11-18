@@ -24,7 +24,6 @@
   transform: translateX(-50%); /* To keep it horizontally centered */
 }
 
-<<<<<<< HEAD
 .App-header h2 {
   margin-bottom: 20px; /* Adjust as needed */
   color: white; /* Ensures the title is visible against the background */
@@ -70,7 +69,6 @@
 }
 
 
-=======
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -79,4 +77,3 @@
     transform: rotate(360deg);
   }
 }
->>>>>>> origin
