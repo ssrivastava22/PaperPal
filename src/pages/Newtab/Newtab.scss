@@ -1,9 +1,10 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+$myColor: rgb(255, 255, 255);
 
-body {
-    font: 100% $font-stack;
-    color: $primary-color;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $myColor;
 }
-
-/* SASS styles specific to your new tab */
