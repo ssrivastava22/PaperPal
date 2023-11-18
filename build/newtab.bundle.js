@@ -5159,7 +5159,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;AACF;;AAEA;EACE,cAAA;EACA,oBAAA;AACF;;AAEA;EACE;IACE,4CAAA;EACF;AACF;AAEA;EACE,yBAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,6BAAA;EACA,YAAA;AAAF;;AAGA;EACE,cAAA;AAAF;;AAGA;EACE;IACE,uBAAA;EAAF;EAEA;IACE,yBAAA;EAAF;AACF","sourcesContent":[".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;AACF;;AAEA;EACE,cAAA;EACA,oBAAA;AACF;;AAEA;EACE;IACE,4CAAA;EACF;AACF;AAEA;EACE,yBAAA;EACA,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,6BAAA;EACA,YAAA;AAAF;;AAGA;EACE,cAAA;AAAF;;AAGA;EACE;IACE,uBAAA;EAAF;EAEA;IACE,yBAAA;EAAF;AACF","sourcesContent":[".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5186,7 +5186,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "h1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: orange;\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.scss"],"names":[],"mappings":"AAEA;;;;;;EAME,aARQ;AAOV","sourcesContent":["$myColor: orange;\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: $myColor;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "h1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: orange;\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/Newtab.scss"],"names":[],"mappings":"AAEA;;;;;;EAME,aARQ;AAOV","sourcesContent":["$myColor: orange;\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: $myColor;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5213,7 +5213,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace;\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/index.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,8JAAA;EAGA,mCAAA;EACA,kCAAA;AADF;;AAIA;EACE,+EAAA;AADF","sourcesContent":["body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace;\n}", "",{"version":3,"sources":["webpack://./src/pages/Newtab/index.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,8JAAA;EAGA,mCAAA;EACA,kCAAA;AADF;;AAIA;EACE,+EAAA;AADF","sourcesContent":["body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40374,9 +40374,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_img_logo_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/img/logo.svg */ "./src/assets/img/logo.svg");
 /* harmony import */ var _Newtab_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Newtab.css */ "./src/pages/Newtab/Newtab.css");
 /* harmony import */ var _Newtab_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Newtab.scss */ "./src/pages/Newtab/Newtab.scss");
+/* harmony import */ var _assets_img_whiteStar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/img/whiteStar */ "./src/assets/img/whiteStar.png");
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 /* provided dependency */ var __react_refresh_error_overlay__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/overlay/index.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+
 
 
 
@@ -40388,7 +40390,7 @@ var Newtab = function Newtab() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
     className: "App-header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_img_logo_svg__WEBPACK_IMPORTED_MODULE_1__,
+    src: _assets_img_whiteStar__WEBPACK_IMPORTED_MODULE_4__,
     className: "App-logo",
     alt: "logo"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Edit ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, "src/pages/Newtab/Newtab.js"), " and save to reload."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -40396,7 +40398,7 @@ var Newtab = function Newtab() {
     href: "https://reactjs.org",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Learn React!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", null, "The color of this paragraph is defined using SASS.")));
+  }, "Learn React!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", null, "hi naman")));
 };
 _c = Newtab;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Newtab);
@@ -41455,14 +41457,14 @@ var WebSocketClient = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?hot=true&hostname=localhost&port=3000":
+/***/ "./node_modules/webpack-dev-server/client/index.js?hot=true&hostname=localhost&port=4000":
 /*!***********************************************************************************************!*\
-  !*** ./node_modules/webpack-dev-server/client/index.js?hot=true&hostname=localhost&port=3000 ***!
+  !*** ./node_modules/webpack-dev-server/client/index.js?hot=true&hostname=localhost&port=4000 ***!
   \***********************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-var __resourceQuery = "?hot=true&hostname=localhost&port=3000";
+var __resourceQuery = "?hot=true&hostname=localhost&port=4000";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! webpack/hot/log.js */ "./node_modules/webpack/hot/log.js");
 /* harmony import */ var webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -41786,14 +41788,14 @@ var socketURL = (0,_utils_createSocketURL_js__WEBPACK_IMPORTED_MODULE_8__["defau
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false":
+/***/ "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false":
 /*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false ***!
+  !*** ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false ***!
   \**************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-var __resourceQuery = "?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false";
+var __resourceQuery = "?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! webpack/hot/log.js */ "./node_modules/webpack/hot/log.js");
 /* harmony import */ var webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -49650,6 +49652,17 @@ module.exports = __webpack_require__.p + "103b5fa18196d5665a7e.svg";
 
 /***/ }),
 
+/***/ "./src/assets/img/whiteStar.png":
+/*!**************************************!*\
+  !*** ./src/assets/img/whiteStar.png ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "4e85981bd25c8f39aac3.png";
+
+/***/ }),
+
 /***/ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ErrorOverlayEntry.js":
 /*!***************************************************************************************!*\
   !*** ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ErrorOverlayEntry.js ***!
@@ -51471,7 +51484,7 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("7fe3b21d74518a18b2c6")
+/******/ 		__webpack_require__.h = () => ("67386d3e337ce9b48e5d")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -52542,10 +52555,10 @@ module.exports = getWDSMetadata;
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	__webpack_require__("./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
-/******/ 	__webpack_require__("./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false");
+/******/ 	__webpack_require__("./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false");
 /******/ 	__webpack_require__("./node_modules/webpack/hot/dev-server.js");
 /******/ 	__webpack_require__("./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ErrorOverlayEntry.js");
-/******/ 	__webpack_require__("./node_modules/webpack-dev-server/client/index.js?hot=true&hostname=localhost&port=3000");
+/******/ 	__webpack_require__("./node_modules/webpack-dev-server/client/index.js?hot=true&hostname=localhost&port=4000");
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/Newtab/index.jsx");
 /******/ 	
 /******/ })()

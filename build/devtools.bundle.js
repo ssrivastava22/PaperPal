@@ -7132,14 +7132,14 @@ var WebSocketClient = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false":
+/***/ "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false":
 /*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false ***!
+  !*** ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false ***!
   \**************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-var __resourceQuery = "?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false";
+var __resourceQuery = "?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! webpack/hot/log.js */ "./node_modules/webpack/hot/log.js");
 /* harmony import */ var webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(webpack_hot_log_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -16803,7 +16803,7 @@ module.exports = getWDSMetadata;
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("7fe3b21d74518a18b2c6")
+/******/ 		__webpack_require__.h = () => ("67386d3e337ce9b48e5d")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -17860,7 +17860,7 @@ module.exports = getWDSMetadata;
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	__webpack_require__("./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
-/******/ 	__webpack_require__("./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=3000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false");
+/******/ 	__webpack_require__("./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=localhost&port=4000&pathname=%2Fws&logging=info&overlay=true&reconnect=10&hot=true&live-reload=false");
 /******/ 	__webpack_require__("./node_modules/webpack/hot/dev-server.js");
 /******/ 	__webpack_require__("./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ErrorOverlayEntry.js");
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/pages/Devtools/index.js");
