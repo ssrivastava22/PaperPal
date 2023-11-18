@@ -26,7 +26,6 @@ const Newtab = () => {
   return (
     <div className="App">
       <header className="App-header">
-<<<<<<< HEAD
         <h2>Tell me about yourself</h2> {/* Moved outside the form-container */}
         <div className="form-container">
           <form className="login-form" onSubmit={handleSubmit}>
@@ -67,7 +66,6 @@ const Newtab = () => {
           <button type="submit">Submit</button>
           </form>
         </div>
-=======
         <img src={whiteStar} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/pages/Newtab/Newtab.js</code> and save to reload.
@@ -81,16 +79,12 @@ const Newtab = () => {
           Learn React!
         </a>
         <h6>hi naman</h6>
->>>>>>> origin
       </header>
     </div>
   );
 };
 
-<<<<<<< HEAD
+
 export default Newtab;
 
 
-=======
-export default Newtab;
->>>>>>> origin
