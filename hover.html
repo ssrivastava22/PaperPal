@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Style for highlighted words */
+    .highlight {
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+      border-radius: 5px; /* Rounded corners */
+      padding: 2px; /* Adjust padding for spacing */
+      background-color: #cccccc; /* Darker gray color */
+    }
+
+    /* Style for the tooltip */
+    .tooltip {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      border: 2px solid #002548; /* Dark blue outline */
+      padding: 8px; /* Increase padding for more inset */
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
+
+    .highlight:hover .tooltip {
+      display: block;
+    }
+  </style>
+  <title>Word Highlighter with Tooltip</title>
+</head>
+<body>
+
+  <div id="contentToHighlight">
+    <p>This is a sample paragraph. The word "text" is highlighted. Hover over it to show a tooltip.</p>
+    <p>Another paragraph with different content. The word "text" is also highlighted. Try hovering over it.</p>
+    <p>More "text" for testing purposes. "Text" is always highlighted.</p>
+  </div>
+
+  <script>
+    // Function to wrap each occurrence of the word "text" in a span with the highlight class
+    function highlightTextOccurrences() {
+      var contentElement = document.getElementById('contentToHighlight');
+
+      // Wrap each occurrence of the word "text" in a span with the highlight class
+      contentElement.innerHTML = contentElement.innerHTML.replace(/\btext\b/ig, function(match) {
+        return '<span class="highlight">' + match + '<span class="tooltip">dummy popup</span></span>';
+      });
+    }
+
+    // Initial call to highlight the word "text"
+    highlightTextOccurrences();
+  </script>
+
+</body>
+</html>
+
