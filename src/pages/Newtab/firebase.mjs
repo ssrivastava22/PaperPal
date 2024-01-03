@@ -16,32 +16,32 @@ let app;
 if (!getApps().length) {
   app = initializeApp(firebaseConfig);
 } else {
-  app = getApp(); // if already initialized, use that one
+  app = getApp();
 }
 
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-// Export the auth and db instances
+
 export { auth, db };
 
 async function addUser(userInfo) {
   try {
-    // Check Firestore for existing user with the same email
+
     const usersRef = collection(db, 'users');
     const q = query(usersRef, where("email", "==", userInfo.email));
     const querySnapshot = await getDocs(q);
     
     if (!querySnapshot.empty) {
       console.error('Email already signed up');
-      return; // Exit function if email already exists
+      return;
     }
 
-    // Create a new user with email and password
+
     const userCredential = await createUserWithEmailAndPassword(auth, userInfo.email, userInfo.password);
     console.log('Auth user created with UID: ', userCredential.user.uid);
 
-    // Add additional user details in Firestore
+
     const userRef = doc(db, 'users', userCredential.user.uid);
     await setDoc(userRef, {
       name: userInfo.name,
@@ -49,7 +49,6 @@ async function addUser(userInfo) {
       education: userInfo.education,
       expertiseLevel: userInfo.expertiseLevel,
       fieldOfInterest: userInfo.fieldOfInterest
-      // Removed the password as it should not be stored in Firestore
     });
     console.log('User added with ID: ', userCredential.user.uid);
   } catch (e) {
@@ -59,11 +58,11 @@ async function addUser(userInfo) {
 
 
 
-// Example usage
+
 addUser({
   name: 'John Doe',
   email: 'johndoe4@example.com',
-  password: 'password123', // Add the password property
+  password: 'password123', 
   education: 'Bachelor of Science in Computer Science',
   expertiseLevel: 'Intermediate',
   fieldOfInterest: 'Machine Learning'
@@ -72,7 +71,7 @@ addUser({
 addUser({
   name: 'Jane Smith',
   email: 'janesmith4@example.com',
-  password: 'password456', // Add the password property
+  password: 'password456',
   education: 'Bachelor of Science in Computer Science',
   expertiseLevel: 'Intermediate',
   fieldOfInterest: 'Machine Learning'

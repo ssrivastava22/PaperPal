@@ -8,14 +8,9 @@ const cheerio = require('cheerio');
 
 const fetchData = async (url) => {
  try {
-   // Use axios to make a GET request to the provided URL
    const response = await axios.get(url);
-
-
-   // Return the HTML content
    return response.data;
  } catch (error) {
-   // Handle errors, for example, log the error and return null
    console.error('Error fetching data:', error);
    return null;
  }
@@ -44,7 +39,7 @@ const scrapeData = (html) => {
 
 
 const extractKeywordsAndDefinitions = (rawResponseData) => {
-  const jsonPattern = /{(?:[^{}]|{(?:[^{}]|{[^{}]*})*})*}/; // Regex pattern to extract JSON-like content
+  const jsonPattern = /{(?:[^{}]|{(?:[^{}]|{[^{}]*})*})*}/;
 
   const matchedJSON = rawResponseData.match(jsonPattern);
 
@@ -57,7 +52,6 @@ const extractKeywordsAndDefinitions = (rawResponseData) => {
         const keywords = [];
         const definitions = [];
 
-        // Iterate through each keyword object
         for (const keywordObj of keywordData) {
           if (keywordObj && keywordObj.keyword && keywordObj.definition) {
             const keyword = keywordObj.keyword;
@@ -151,7 +145,6 @@ const openHTMLFileInNewTab = (htmlContent) => {
 const sendTextToApi = async (text, scraped) => {
   console.log('Before fetch');
   try {
-    // Truncate the text to the first 20,000 characters
     const truncatedText = text.slice(0, 20000);
     const response = await fetch('https://saniyad22-ii4pry32dq-vp.a.run.app/get_keywords', {
       method: 'POST',
@@ -164,15 +157,11 @@ const sendTextToApi = async (text, scraped) => {
     const rawResponse = await response.text();
     console.log(rawResponse);
     if (response.ok) {
-      // Extracted keywords and definitions from the API response
       const { keywords, definitions } = extractKeywordsAndDefinitions(rawResponse);
-      // Joined the scraped data into a single text string
       const textToSend = scraped.join(' ');
   
       console.log(keywords)
       const htmlContent = createHTMLFile(textToSend, keywords, definitions);
-  
-      // Open the generated HTML in a new tab
       openHTMLFileInNewTab(htmlContent);
     } else {
       console.log('Not working');
@@ -194,7 +183,6 @@ const Popup = () => {
  const handleClick = async () => {
    console.log('Button clicked');
    try {
-     // Fetch and scrape data from the provided URL
      const html = await fetchData(urlInput);
      const scrapedData = scrapeData(html);
 
@@ -203,11 +191,9 @@ const Popup = () => {
        console.log('Scraped data:', scrapedData);
 
 
-       // Join the scraped data into a single text string
        const textToSend = scrapedData.join(' ');
 
 
-       // Send the text to the API endpoint
        await sendTextToApi(textToSend, scrapedData);
      } else {
        console.log('No data scraped');
