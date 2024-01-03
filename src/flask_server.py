@@ -44,3 +44,5 @@ def get_keywords():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+#deployed to google cloud at: https://saniyad22-ii4pry32dq-vp.a.run.app/get_keywords
