@@ -1,4 +1,5 @@
 *chrome extension boilerplate code from: https://github.com/lxieyang/chrome-extension-boilerplate-react
+
 *find application functionality code in src folder
 
 AI ATL 2023 Hackathon Submission:
