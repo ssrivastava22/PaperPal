@@ -3,9 +3,9 @@ import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import { getFirestore, doc, collection, where, getDocs, query, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA1vIUyQFBru5PKM8hn1ZDOszPYTEh4So",
-  authDomain: "paperpal-74e6b.firebaseapp.com",
-  projectId: "paperpal-74e6b",
+  apiKey: "hidden",
+  authDomain: "hidden",
+  projectId: "hidden",
   storageBucket: "paperpal-74e6b.appspot.com",
   messagingSenderId: "544238978122",
   appId: "1:544238978122:web:b6794e2018787551e552b3",
