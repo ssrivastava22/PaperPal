@@ -19,16 +19,15 @@
   text-align: center;
   width: 100%;
   position: absolute;
-  top: 90px; /* Adjust this value to move the box up */
+  top: 90px;
   left: 50%;
-  transform: translateX(-50%); /* To keep it horizontally centered */
+  transform: translateX(-50%);
 }
 
 .App-header h2 {
-  margin-bottom: 20px; /* Adjust as needed */
-  color: white; /* Ensures the title is visible against the background */
-  font-size: 32px; /* Increase the font size as needed */
-  /* Optionally, you can add other styling properties like font-weight if needed */
+  margin-bottom: 20px; 
+  color: white; 
+  font-size: 32px; 
 }
 
 
@@ -37,10 +36,10 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color: black; /* Ensures text is visible on white background */
+  color: black;
   width: 100%; 
   max-width: 400px; 
-  margin: auto; /* Center the box horizontally */
+  margin: auto;
 }
 
 .login-form {
@@ -59,13 +58,13 @@
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #004080; /* Adjust button color as needed */
+  background-color: #004080;
   color: white;
   cursor: pointer;
 }
 
 .login-form button:hover {
-  background-color: #0056b3; /* Adjust hover color as needed */
+  background-color: #0056b3;
 }
 
 @keyframes App-logo-spin {

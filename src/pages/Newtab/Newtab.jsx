@@ -21,10 +21,8 @@ const Newtab = () => {
     e.preventDefault();
 
     try {
-      // Reference to Firestore collection, e.g., 'users'
       const colRef = collection(db, "users");
 
-      // Add the form data to Firestore
       const docRef = await addDoc(colRef, formData);
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
@@ -32,9 +30,9 @@ const Newtab = () => {
     }
   };
 
-  // Function called upon successful Google sign-in
+  
   const onSignIn = (googleUser) => {
-    // Here you can handle the user's Google profile data
+  
     console.log("User signed in with Google");
   };
 
@@ -81,7 +79,6 @@ const Newtab = () => {
             <button type="submit">Submit</button>
           </form>
         </div>
-        {/* Google Sign-In Button */}
         <div className="g-signin2" data-onsuccess="onSignIn"></div>
       </header>
     </div>
