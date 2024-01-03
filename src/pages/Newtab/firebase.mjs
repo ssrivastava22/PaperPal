@@ -6,10 +6,10 @@ const firebaseConfig = {
   apiKey: "hidden",
   authDomain: "hidden",
   projectId: "hidden",
-  storageBucket: "paperpal-74e6b.appspot.com",
-  messagingSenderId: "544238978122",
-  appId: "1:544238978122:web:b6794e2018787551e552b3",
-  measurementId: "G-CB24J5DY01"
+  storageBucket: "hidden",
+  messagingSenderId: "hidden",
+  appId: "hidden",
+  measurementId: "hidden"
 };
 
 let app;
